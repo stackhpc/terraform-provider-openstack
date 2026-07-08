@@ -1,0 +1,4 @@
+[submodule "gophercloud"]
+	path = gophercloud
+	url = git@github.com:stackhpc/gophercloud.git
+	branch = add-manila-sharetype-v2

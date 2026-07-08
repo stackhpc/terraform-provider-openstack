@@ -19,12 +19,15 @@ Clone the repository
 
 ```sh
 $ git clone git@github.com:terraform-provider-openstack/terraform-provider-openstack.git
+$ cd terraform-provider-openstack
+$ git submodule init
+$ git submodule update
+
 ```
 
-Enter the provider directory and build the provider
+Build the provider
 
 ```sh
-$ cd terraform-provider-openstack
 $ make build
 ```
 
